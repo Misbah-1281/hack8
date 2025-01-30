@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "./component/footer";
-import Upperfooter from "./component/upperfooter";
+// import Upperfooter from "./component/upperfooter";
 import Header from "./component/header";
-import Upperheader from "./component/upperheader";
+// import Upperheader from "./component/upperheader";
+// import NewsletterSubscription from "./component/upperfooter";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +33,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <Upperfooter/>
+        {/* <NewsletterSubscription/> */}
         <Footer/>
       </body>
     </html>

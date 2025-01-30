@@ -56,7 +56,7 @@ const TopSelling = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center">
         {products.map((product, index) => (
           <div
-            className="w-full h-full border-gray-300 rounded-lg p-4 text-center bg-gray-100 transition-transform transform hover:scale-105 hover:shadow-lg"
+            className="w-full h-full sm:h-[500px] border-gray-300 rounded-lg p-4 text-center bg-gray-100 transition-transform transform hover:scale-105 hover:shadow-lg"
             key={index}
           >
             <div className="relative w-full h-72">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Upperheader from '../component/upperheader'
+import Upperheader from '../component/Uheader'
 import Header from '../component/header'
 import Component from './component'
 

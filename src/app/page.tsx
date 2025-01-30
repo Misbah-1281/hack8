@@ -1,15 +1,18 @@
 import React from 'react'
-import Upperheader from './component/upperheader'
+
 import Header from './component/header'
 import Herosection from './component/herosection'
 import NewArrivals from './component/newarrivals'
 import TopSelling from './component/topselling'
 import HappyCustomers from './component/happycustomer'
-import DressStyle from './component/Dressstyle'
-import Text from './component/text'
-import Upperfooter from './component/upperfooter'
+
 import Footer from './component/footer'
 import Newarrivals from './component/newarrivals'
+
+import Offers from './component/offers'
+import Dress from './component/Dressstyle'
+import Upperheader from './component/Uheader'
+// import Dress from './component/Dressstyle'
 
 
 const home = () => {
@@ -18,11 +21,13 @@ const home = () => {
       <Upperheader/>
       <Header/>
       <Herosection/>
-      <Text/>
+      {/* <Text/> */}
       <Newarrivals/>
       <TopSelling/>
-      <DressStyle/>
+      <Dress/>
       <HappyCustomers/>
+      <Offers/>
+      
       
     </div>
   )

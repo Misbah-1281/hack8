@@ -20,16 +20,16 @@ const Review = () =>{
   ];
 
   return (
-    <div className="bg-gray-50 py-10 px-6 sm:px-12">
-      <h2 className="text-3xl font-bold text-start mb-8">ALL REVIEWS (451)</h2>
+    <div className="bg-gray-50 py-10 px-6 text-center sm:px-12">
+      <h2 className="text-3xl font-bold text-center mb-8">ALL REVIEWS (451)</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="p-6 bg-white shadow-md rounded-md hover:shadow-lg transition-shadow"
+            className="p-6 bg-white shadow-md rounded-md hover:shadow-lg transition-shadow "
           >
-            <div className="flex items-center mb-4">
-              <div className="flex">
+            <div className="flex items-center justify-center mb-4">
+              <div className="flex justify-center">
                 {Array.from({ length: testimonial.stars }).map((_, i) => (
                   <svg
                     key={i}

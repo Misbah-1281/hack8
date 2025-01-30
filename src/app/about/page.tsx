@@ -2,7 +2,7 @@ import React from 'react'
 
 import Like from './like'
 import Header from '../component/header'
-import Upperheader from '../component/upperheader'
+import Upperheader from '../component/Uheader'
 import Cart from './cart'
 import ReviewsSection from './Review'
 import ReviewMore from './ReviewMore'
